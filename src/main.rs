@@ -3,6 +3,9 @@ fn main() {
     for i in 0..10 {
         println!("{}th Fibonacci number is: {}", i, generate_fibonacci_sequence_up_to_n(i))
     }
+    for i in 0..10 {
+        println!("{}th Fibonacci number is: {}", i, generate_fibonacci_sequence_up_to_n_with_recursion(i))
+    }
 }
 fn generate_fibonacci_sequence_up_to_n(mut n: u32) -> u32{
     let mut a = 0;
