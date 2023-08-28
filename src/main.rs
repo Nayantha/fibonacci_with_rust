@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, welcome to Fibonacci Sequence Generator!");
     for i in 0..10 {
         println!("{}th Fibonacci number is: {}", i, generate_fibonacci_sequence_up_to_n(i))
     }
