@@ -15,3 +15,10 @@ fn generate_fibonacci_sequence_up_to_n(mut n: u32) -> u32{
     }
     b
 }
+
+fn generate_fibonacci_sequence_up_to_n_with_recursion(n: u32) -> u32{
+    if n <= 1 {
+        return 1
+    }
+    generate_fibonacci_sequence_up_to_n_with_recursion(n) + generate_fibonacci_sequence_up_to_n_with_recursion(n-1)
+}
